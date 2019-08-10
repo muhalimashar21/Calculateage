@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <!--<TextView android:layout_width="match_parent"-->
+              <!--android:textAlignment="center"-->
+              <!--android:textStyle="bold"-->
+              <!--android:textColor="@color/colorP"-->
+              <!--android:textSize="25dp"-->
+              <!--android:background="@color/colorPrimary"-->
+              <!--android:text="Aplikasi Calculate Age"-->
+              <!--android:layout_height="39dp"/>-->
+    <ImageView android:layout_width="match_parent"
+               android:layout_marginTop="30dp"
+               android:src="@mipmap/ic_launcher_round"
+               android:layout_height="110dp"/>
+
+    <EditText
+            android:layout_marginTop="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="277dp"
+            android:layout_height="59dp"
+            android:inputType="number"
+            android:ems="10"
+            tools:layout_editor_absoluteY="60dp"
+            tools:layout_editor_absoluteX="99dp" android:id="@+id/etInputUmur"
+            android:hint="masukkan tahun kelahiran"/>
+
+    <TextView
+            android:layout_marginTop="35dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/etInputUmur"
+            android:text="Umur ="
+            android:layout_width="214dp"
+            android:layout_height="48dp" tools:layout_editor_absoluteY="181dp"
+            tools:layout_editor_absoluteX="170dp" android:id="@+id/tvUmur"/>
+    <Button
+            android:layout_marginTop="40dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/tvUmur"
+            android:textSize="15dp"
+            android:background="@color/colorPrimary"
+            android:text="HITUNG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="321dp"
+            tools:layout_editor_absoluteX="161dp" android:id="@+id/btnHitung" tools:text="Hitung"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_marginTop="515dp"
+              android:textAlignment="center"
+              android:textStyle="bold"
+              android:textColor="@color/colorP"
+              android:textSize="25dp"
+              android:background="@color/colorPrimary"
+              android:layout_height="45dp"/>
+</RelativeLayout>
